@@ -15,13 +15,13 @@ The model was deployed using TensorFlow.js based on this [example](https://githu
 Check **tf_classifier.ipynb** notebook to see the data pipeline and model code.
 
 <div class="row">
-  <div class="column">
-    <img src="https://github.com/jacquelinearaya/jacquelinearaya.github.io/blob/master/classifier/lion.jpg" width="200" height="200" align="left"/></img>
+  <div class="column" width=10>
+    <img src="https://github.com/jacquelinearaya/jacquelinearaya.github.io/blob/master/classifier/lion.jpg" width="200" height="200"  style="border:5px solid black"/></img>
   </div>
-  <div class="column">
-    <img src="https://github.com/jacquelinearaya/jacquelinearaya.github.io/blob/master/classifier/almamater.jpg" width="200" height="300" align="middle"/></img> 
+  <div class="column" width=10>
+    <img src="https://github.com/jacquelinearaya/jacquelinearaya.github.io/blob/master/classifier/almamater.jpg" width="200" height="300" style="border:5px solid black"/></img> 
   </div>
-  <div class="column">
-    <img src="https://github.com/jacquelinearaya/jacquelinearaya.github.io/blob/master/classifier/curl.jpg" width="250" height="200" align="right"/></img>
+  <div class="column" width=10>
+    <img src="https://github.com/jacquelinearaya/jacquelinearaya.github.io/blob/master/classifier/curl.jpg" width="250" height="200"  style="border:5px solid black"/></img>
   </div>
 </div>
