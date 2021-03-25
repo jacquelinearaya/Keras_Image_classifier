@@ -14,7 +14,7 @@ The model was deployed using TensorFlow.js based on this [example](https://githu
 
 Check **tf_classifier.ipynb** notebook to see the data pipeline and model code.
 
-<div class="row" align="middle">
+<div class="row">
   <div class="column">
     <img src="https://github.com/jacquelinearaya/jacquelinearaya.github.io/blob/master/classifier/lion.jpg" width="200" height="200"/></img>
   </div>
