@@ -14,14 +14,7 @@ The model was deployed using TensorFlow.js based on this [example](https://githu
 
 Check **tf_classifier.ipynb** notebook to see the data pipeline and model code.
 
-<div class="row">
-  <div class="column">
-    <img src="https://github.com/jacquelinearaya/jacquelinearaya.github.io/blob/master/classifier/lion.jpg" width="200" height="200"/></img>
-  </div>
-  <div class="column" width="10">
-    <img src="https://github.com/jacquelinearaya/jacquelinearaya.github.io/blob/master/classifier/almamater.jpg" width="200" height="300" /></img> 
-  </div>
-  <div class="column" >
-    <img src="https://github.com/jacquelinearaya/jacquelinearaya.github.io/blob/master/classifier/curl.jpg" width="250" height="200"/></img>
-  </div>
-</div>
+
+Scholars Lion                    |    Alma Mater            | The Curl
+:----------------------:|:------------------------:|:-----------:
+ <img src="https://github.com/jacquelinearaya/jacquelinearaya.github.io/blob/master/classifier/lion.jpg" width="200" height="200"/></img>|<img src="https://github.com/jacquelinearaya/jacquelinearaya.github.io/blob/master/classifier/almamater.jpg" width="165" height="210" /></img>|<img src="https://github.com/jacquelinearaya/jacquelinearaya.github.io/blob/master/classifier/curl.jpg" width="220" height="200"/></img>
