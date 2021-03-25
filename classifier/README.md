@@ -14,9 +14,36 @@ The model was deployed using TensorFlow.js based on this [example](https://githu
 
 Check **tf_classifier.ipynb** notebook to see the data pipeline and model code.
 
-<img src="https://github.com/jacquelinearaya/jacquelinearaya.github.io/blob/master/classifier/lion.jpg" width="200" height="200" /></img>
+<div class="row">
+  <div class="column">
+    <img src="https://github.com/jacquelinearaya/jacquelinearaya.github.io/blob/master/classifier/lion.jpg" width="200" height="200" /></img>
+  </div>
+  <div class="column">
+    <img src="https://github.com/jacquelinearaya/jacquelinearaya.github.io/blob/master/classifier/almamater.jpg" width="200" height="300" /></img> 
+  </div>
+  <div class="column">
+    <img src="https://github.com/jacquelinearaya/jacquelinearaya.github.io/blob/master/classifier/curl.jpg" width="250" height="200" /></img>
+  </div>
+</div>
 
-<img src="https://github.com/jacquelinearaya/jacquelinearaya.github.io/blob/master/classifier/almamater.jpg" width="200" height="300" /></img> 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
 
-<img src="https://github.com/jacquelinearaya/jacquelinearaya.github.io/blob/master/classifier/curl.jpg" width="250" height="200" /></img>
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
