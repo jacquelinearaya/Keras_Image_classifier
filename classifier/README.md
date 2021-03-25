@@ -14,9 +14,9 @@ The model was deployed using TensorFlow.js based on this [example](https://githu
 
 Check **tf_classifier.ipynb** notebook to see the data pipeline and model code.
 
-![Scholars' Lion](https://github.com/jacquelinearaya/jacquelinearaya.github.io/blob/master/classifier/lion.jpg)<img src="lion.jpg" width="200" height="200" />
+<img src="https://github.com/jacquelinearaya/jacquelinearaya.github.io/blob/master/classifier/lion.jpg" width="200" height="200" /></img>
 
-![Alma Mater](https://github.com/jacquelinearaya/jacquelinearaya.github.io/blob/master/classifier/almamater.jpg)<img src="almamater.jpg" width="200" height="300" /> 
+<img src="https://github.com/jacquelinearaya/jacquelinearaya.github.io/blob/master/classifier/almamater.jpg" width="200" height="300" /></img> 
 
-![The Curl](https://github.com/jacquelinearaya/jacquelinearaya.github.io/blob/master/classifier/curl.jpg)<img src="curl.jpg" width="250" height="200" /> 
+<img src="https://github.com/jacquelinearaya/jacquelinearaya.github.io/blob/master/classifier/curl.jpg" width="250" height="200" /></img>
 
