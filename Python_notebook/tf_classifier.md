@@ -1055,4 +1055,4 @@ for name in bin_files:
 
 The bin files along with the model in json format are going to be use to deploy the classifier model on a simple website using TensorFlow.js
 
-Visit: https://jacquelinearaya.github.io/classifier to see the model deployed.
+Visit: https://jacquelinearaya.github.io/portfolio/modelindex to see the model deployed.
