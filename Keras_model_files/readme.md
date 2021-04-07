@@ -1,1 +1,1 @@
-Here you can find the neccesary files containing the TensorFlow model (Keras HDF5 model) using the following Keras converter (script)[https://github.com/tensorflow/tfjs-converter/tree/master/tfjs-converter].
+Here you can find the neccesary files containing the TensorFlow model (Keras HDF5 model) using the following Keras converter [script](https://github.com/tensorflow/tfjs-converter/tree/master/tfjs-converter).
