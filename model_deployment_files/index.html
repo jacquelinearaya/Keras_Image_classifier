@@ -1,0 +1,68 @@
+<!doctype html>
+
+<head>
+  <title>Columbia landmarks model classification</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<style>
+  .pred-container {
+    margin-bottom: 20px;
+  }
+
+  .pred-container > div {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+  }
+
+  .row {
+    display: table-row;
+  }
+  .cell {
+    display: table-cell;
+    padding-right: 20px;
+  }
+
+  #file-container {
+    margin-bottom: 20px;
+  }
+</style>
+
+<body>
+  <div class="tfjs-example-container">
+    <section class='title-area'>
+      <h1>TensorFlow.js: Using a Keras model in the browser to classify 3 popular Columbia Landmarks</h1>
+    </section>
+
+    <section>
+      <p class='section-head'>Description: This simple website deploys a classifier built with Keras and Tensorflow. Using transfer learning, the classifier is based partly on a well known CNN model, <a href="https://neurohive.io/en/popular-networks/vgg16/">VGG16</a>, to learn how to classify accurately any of these 3 popular Columbia University landmarks: <a href="https://en.wikipedia.org/wiki/Alma_Mater_(New_York_sculpture)"> Alma Mater</a>, <a href="http://www.wikicu.com/Scholar%27s_Lion"> Scholars` Lion</a> or <a href="https://blogs.cul.columbia.edu/outdoorsculpture/2015/12/22/meadmores-curl-conservation-complete/">The Curl (Columbia Business School)</a>.</p>
+      <p>The model predicts the probabilites of any image to be classified as one of the 3 landmarks. Have fun!</p>
+
+      <h5>
+        This project is based on <a href="https://github.com/tensorflow/tfjs-examples/tree/master/mobilenet">this website</a>, you can find my code <a href="https://github.com/jacquelinearaya/jacquelinearaya.github.io"> here</a>.
+      </h5>
+    </section>
+
+    <section>
+      <p class='section-head'>Status</p>
+      <div id="status"></div>
+    </section>
+
+    <section>
+      <p class='section-head'>Model Output</p>
+
+      <div id="file-container" style="display: none">
+        Upload an image of any of the 3 landmarks:  <input type="file" id="files" name="files[]" multiple />
+      </div>
+
+      <div id="predictions"></div>
+
+      <img style="display: none" id="cat" src="lion.jpg" width=256 height=256 />
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+    <script src="index.js"></script>
+  </div>
+</body>
