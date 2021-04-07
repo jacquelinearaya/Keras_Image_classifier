@@ -17,4 +17,4 @@ Check [**tf_classifier.ipynb**](https://github.com/jacquelinearaya/jacquelineara
 
 Scholars Lion                    |    Alma Mater            | The Curl
 :----------------------:|:------------------------:|:-----------:
- <img src="https://github.com/jacquelinearaya/Image_classifier_Keras/blob/master/classifier/lion.jpg" width="200" height="200"/></img>|<img src="https://github.com/jacquelinearaya/Image_classifier_Keras/blob/master/classifier/almamater.jpg" width="165" height="210" /></img>|<img src="https://github.com/jacquelinearaya/Image_classifier_Keras/blob/master/classifier/curl.jpg" width="220" height="200"/></img>
+ <img src="https://github.com/jacquelinearaya/Image_classifier_Keras/lion.jpg" width="200" height="200"/></img>|<img src="https://github.com/jacquelinearaya/Image_classifier_Keras/almamater.jpg" width="165" height="210" /></img>|<img src="https://github.com/jacquelinearaya/Image_classifier_Keras/curl.jpg" width="220" height="200"/></img>
