@@ -12,7 +12,7 @@ The model was deployed using TensorFlow.js based on this [example](https://githu
 
 ### iPython Notebook:
 
-Check [**tf_classifier.ipynb**](https://github.com/jacquelinearaya/jacquelinearaya.github.io/blob/master/classifier/model_code/tf_classifier.ipynb) notebook to see the data pipeline and model code.
+Check [**tf_classifier.ipynb**](https://jacquelinearaya.github.io/2020/05/01/tf_classifier.html) notebook to see the data pipeline and model code.
 
 
 Scholars Lion                    |    Alma Mater            | The Curl
